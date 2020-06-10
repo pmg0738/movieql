@@ -58,6 +58,6 @@ export const getSuggestions = async id => {
 //         REQUEST_URL += `&minimum_rating=${rating}`;
 //     }
 //     return fetch(REQUEST_URL)
-//         .then(res => res.json())
+//         .then(res => res.json()) 
 //         .then(json => json.data.movies);
 // }
